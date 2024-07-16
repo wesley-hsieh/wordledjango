@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(!f-gm66%@9#pk=7*c_)w&fv+^0j2cws)x7(e43*8_21f37&f$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["54.197.212.110"]
 
 
 # Application definition
@@ -126,6 +126,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'http://wordle-react.s3-website-us-east-1.amazonaws.com',
 ]
 
