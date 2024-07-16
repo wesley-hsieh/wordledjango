@@ -11,5 +11,5 @@ from .views import TodaysWordView, DifferentWordView
 urlpatterns = [
 #     path('', include(router.urls)),
     path("todays-word", TodaysWordView.as_view(), name='todays-word'),
-    path('different-word/', DifferentWordView.as_view(), name='different-word'),
+    path('different-word', DifferentWordView.as_view(), name='different-word'),
 ]
